@@ -1,0 +1,5 @@
+com\pagefactory\MasterPageFactory.class
+com\stepdef\StepDef.class
+com\generic\DriverManager.class
+com\util\Highlighter.class
+com\util\Screenshot.class

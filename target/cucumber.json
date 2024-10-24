@@ -1,0 +1,837 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-23T17:12:48.050Z",
+        "line": 16,
+        "name": "As a user, I want to log in to the Parabank Website with valid credentials so that I can Use the bank website.",
+        "description": "",
+        "id": "swaglabs-login-testing;as-a-user--i-want-to-log-in-to-the-parabank-website-with-valid-credentials-so-that-i-can-use-the-bank-website.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "pass the website url  \"https://www.saucedemo.com/v1/index.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/v1/index.html\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdef.StepDef.pass_the_website_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Validate the Login is successful",
+            "match": {
+              "location": "com.stepdef.StepDef.validate_the_login_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Quit the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.quit_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-23T17:12:48.081Z",
+        "line": 17,
+        "name": "As a user, I want to log in to the Parabank Website with valid credentials so that I can Use the bank website.",
+        "description": "",
+        "id": "swaglabs-login-testing;as-a-user--i-want-to-log-in-to-the-parabank-website-with-valid-credentials-so-that-i-can-use-the-bank-website.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "pass the website url  \"https://www.saucedemo.com/v1/index.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/v1/index.html\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdef.StepDef.pass_the_website_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the username \"problem_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Validate the Login is successful",
+            "match": {
+              "location": "com.stepdef.StepDef.validate_the_login_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Quit the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.quit_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-23T17:12:48.100Z",
+        "line": 29,
+        "name": "As a user, I want to log in to the Parabank Website with username but no password so that it denies to log in.",
+        "description": "",
+        "id": "swaglabs-login-testing;as-a-user--i-want-to-log-in-to-the-parabank-website-with-username-but-no-password-so-that-it-denies-to-log-in.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Open the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "pass the website url  \"https://www.saucedemo.com/v1/index.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/v1/index.html\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdef.StepDef.pass_the_website_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1009500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validate the Login is failed",
+            "match": {
+              "location": "com.stepdef.StepDef.error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Quit the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.quit_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-23T17:12:48.117Z",
+        "line": 41,
+        "name": "As a user, I want to log in to the Parabank Website without the username but with the password.",
+        "description": "",
+        "id": "swaglabs-login-testing;as-a-user--i-want-to-log-in-to-the-parabank-website-without-the-username-but-with-the-password.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Open the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "pass the website url  \"https://www.saucedemo.com/v1/index.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/v1/index.html\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdef.StepDef.pass_the_website_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Validate the Login is failed",
+            "match": {
+              "location": "com.stepdef.StepDef.error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Quit the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.quit_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-23T17:12:48.127Z",
+        "line": 52,
+        "name": "As a user, I want to log in to the Parabank Website without the username and password so that it denies to log in.",
+        "description": "",
+        "id": "swaglabs-login-testing;as-a-user--i-want-to-log-in-to-the-parabank-website-without-the-username-and-password-so-that-it-denies-to-log-in.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Open the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "pass the website url  \"https://www.saucedemo.com/v1/index.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/v1/index.html\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdef.StepDef.pass_the_website_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Validate the Login is failed",
+            "match": {
+              "location": "com.stepdef.StepDef.error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Quit the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.quit_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Swaglabs Login Testing",
+    "description": "Description: User  should already have an account in Parabank",
+    "id": "swaglabs-login-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SwagLogin.feature",
+    "tags": [
+      {
+        "name": "@functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-23T17:12:48.153Z",
+        "line": 17,
+        "name": "As a logged user, I want to log out  from the Swag Labs Website for security purpose.",
+        "description": "",
+        "id": "swag-labs-website-log-out-testing;as-a-logged-user--i-want-to-log-out--from-the-swag-labs-website-for-security-purpose.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pass the website url  \"https://www.saucedemo.com/v1/index.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/v1/index.html\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdef.StepDef.pass_the_website_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Open menu side bar",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_open_menu_side_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Logout Button",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate the Logout  is successful",
+            "match": {
+              "location": "com.stepdef.StepDef.validate_the_logout_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Quit the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.quit_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-10-23T17:12:48.172Z",
+        "line": 18,
+        "name": "As a logged user, I want to log out  from the Swag Labs Website for security purpose.",
+        "description": "",
+        "id": "swag-labs-website-log-out-testing;as-a-logged-user--i-want-to-log-out--from-the-swag-labs-website-for-security-purpose.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pass the website url  \"https://www.saucedemo.com/v1/index.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/v1/index.html\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdef.StepDef.pass_the_website_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the username \"problem_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepDef.enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Open menu side bar",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_open_menu_side_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Logout Button",
+            "match": {
+              "location": "com.stepdef.StepDef.click_on_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate the Logout  is successful",
+            "match": {
+              "location": "com.stepdef.StepDef.validate_the_logout_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Quit the Browser",
+            "match": {
+              "location": "com.stepdef.StepDef.quit_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Swag Labs website log out testing",
+    "description": "Description: Must be a Logged in user.",
+    "id": "swag-labs-website-log-out-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SwagLogout.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
