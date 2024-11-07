@@ -48,5 +48,5 @@ When Click on Login Button
 Then Validate the Login is failed
 Given Quit the Browser
 Examples:
-|URL 																																					| 
+|URL 																																			| 
 |https://www.saucedemo.com/v1/index.html	|

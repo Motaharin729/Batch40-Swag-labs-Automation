@@ -43,14 +43,14 @@ public class StepDef {
 	@When("Enter the password {string}")
 	public void enter_the_password(String password) {
 	    //Highlighting 
-	   Highlighter.addColor(driver, mpf.getPassword());  
+	  // Highlighter.addColor(driver, mpf.getPassword());  
 	   mpf.getPassword().sendKeys(password);
 	}
 
 	@When("Click on Login Button")
 	public void click_on_login_button() {
 	    //Highlighting 
-	   Highlighter.addColor(driver, mpf.getLogin_btn());   
+	   //Highlighter.addColor(driver, mpf.getLogin_btn());   
 	   mpf.getLogin_btn().click();
 	}
 
@@ -61,7 +61,7 @@ public class StepDef {
 	    if(mpf.getHomepage().isDisplayed()==true)
 	    {
 	    	//	ScreenShot
-	    	Screenshot.getScreenShot(driver, "Homepage-login-successful");
+	    	//Screenshot.getScreenShot(driver, "Homepage-login-successful");
 	    	System.out.println("Log in Successful");
 	    }else
 	    {
@@ -74,16 +74,16 @@ public class StepDef {
 		
 		
 		mpf.getError_msg().isDisplayed();
-//		ScreenShot
-		Screenshot.getScreenShot(driver, "Login-Failed");
+		//		ScreenShot
+		//Screenshot.getScreenShot(driver, "Login-Failed");
 	}
 	
 	@When("Click on Logout Button")
 	public void click_on_logout_button() {
 	 
 	   mpf.getLogout().click();
-//		ScreenShot
-	   Screenshot.getScreenShot(driver, "Logged-out");
+	   //		ScreenShot
+	   //Screenshot.getScreenShot(driver, "Logged-out");
 	}
 	
 	@When("Click on Open menu side bar")
@@ -98,6 +98,12 @@ public class StepDef {
 	sa.assertTrue(mpf.getLogin_btn().isDisplayed(),"logged out");
 	}
 
+	@When("every test passed, take screenshot")
+	public void take_screenshot() {
+		Screenshot.getScreenShot(driver, "Logged-out");
+		// how to take screenshot after every scenario test run ?
+	}
+	
 	@Given("Quit the Browser")
 	public void quit_the_browser() {
 	   driver.quit();
